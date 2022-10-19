@@ -4,4 +4,5 @@
 /test/
 *.json
 *.txt
+!default_config.txt
 nb*.xml
