@@ -15,6 +15,6 @@ jobs:
         uses: bots-house/ghcr-delete-image-action@v1.1.0
         with:
           owner: jacob88
-          name: musicbot
+          name: MusicBot
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: pr-${{github.event.pull_request.number}}
